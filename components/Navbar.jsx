@@ -62,9 +62,9 @@ const Navbar = () => {
               <ul
               style={{color: `${linkColor}`}} 
                 className={shadow ? 'hidden md:flex font-semibold text-[#1f2937]' : 'hidden md:flex font-semibold text-gray-200'}>
-                <div onClick={handleNav}><Link href='/'>
+                <Link href='/'>
                   <li className='ml-10 text-sm uppercase hover:text-[#a21a21]'>Home</li>
-                </Link></div>
+                </Link>
                 <Link href='/#about'>
                   <li className='ml-10 text-sm uppercase hover:text-[#a21a21]'>About</li>
                 </Link>

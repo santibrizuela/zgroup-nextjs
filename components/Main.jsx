@@ -31,10 +31,15 @@ const Main = () => {
                         <div className='rounded-full icolink shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <AiOutlineInstagram/>
                         </div>
-                    </Link>
-                    
-                    
+                    </Link>    
                 </div>
+                
+                <Link href='/#services'>
+                    <div className='btn-outline'>
+                        <p className='p-2'>Servicios</p>
+                    </div>
+                </Link>
+
             </div>
         </div>
     </div>

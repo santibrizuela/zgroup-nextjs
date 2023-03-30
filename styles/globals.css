@@ -37,6 +37,14 @@ html{
         @apply bg-gradient-to-r from-[#365084] to-[#a21a21] text-white
     }
 
+    .btn-outline{
+        @apply border-2 inline-block bg-transparent rounded-xl uppercase border-gray-600 text-gray-300
+    }
+
+    .btn-outline:hover{
+        @apply bg-gradient-to-r from-[#365084] to-[#a21a21] text-white
+    }
+
     .icolink:hover{
         @apply text-[#a21a21]
     }
