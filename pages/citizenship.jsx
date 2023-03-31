@@ -20,10 +20,13 @@ const citizenship = () => {
             <div className='col-span-4'>
                 <p>Proyecto</p>
                 <h2>Residencia</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Facilis excepturi eius fuga voluptates velit iure 
-                    assumenda totam? Minus quam dolorum, nihil eligendi, 
-                    magnam rerum, vel tempore quisquam sequi porro placeat.
+                <p>En cuanto a la ciudadanía estadounidense, existen varias formas de obtenerla, 
+                    como por ejemplo, nacer en los Estados Unidos, ser hijo de un ciudadano 
+                    estadounidense, o mediante un proceso llamado naturalización, que implica 
+                    cumplir con ciertos requisitos, como haber sido residente permanente por un 
+                    período mínimo de tiempo y pasar una prueba de ciudadanía. La ciudadanía 
+                    estadounidense otorga una serie de derechos y privilegios, como el derecho a 
+                    votar y el derecho a trabajar en ciertos trabajos del gobierno.
                 </p>
                 <button className='btn px-8 py-2 mt-4 mr-8 text-white'>Guia</button>
                 <button className='btn px-8 py-2 mt-4 text-white bg-green-600'>Whatsapp</button>

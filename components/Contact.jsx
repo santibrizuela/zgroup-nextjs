@@ -49,6 +49,7 @@ const Contact = () => {
                 <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 scale-90 hover:scale-100 ease-in duration-300'>
                     <div className='p-4'>
                         <form>
+                            <h3 className='text-xl text-center uppercase'>Contactanos</h3>
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
 
                                 <div className='flex flex-col'>
@@ -67,7 +68,7 @@ const Contact = () => {
                                 <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" />
                             </div>
                             <div className='flex flex-col py-2'>
-                                <label className='uppercase text-sm py-2'>Subject</label>
+                                <label className='uppercase text-sm py-2'>Asunto</label>
                                 <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
                             </div>
                             <div className='flex flex-col py-2'>

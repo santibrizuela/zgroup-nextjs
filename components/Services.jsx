@@ -7,7 +7,7 @@ import {AiFillIdcard, AiFillHome} from 'react-icons/ai'
 
 const Services = () => {
   return (
-    <div id='services' className='w-full lg:h-screen p-2 text-center'>
+    <div id='services' className='w-full lg:h-screen py-20 lg:p-2 text-center'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='text-xl tracking-widest uppercase text-[#a21a21]'>Servicios</p>
             <h2 className='py-4'>¿Qué tenemos para tí?</h2>

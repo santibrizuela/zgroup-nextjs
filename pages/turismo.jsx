@@ -20,10 +20,15 @@ const turismo = () => {
             <div className='col-span-4'>
                 <p>Proyecto</p>
                 <h2>Residencia</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Facilis excepturi eius fuga voluptates velit iure 
-                    assumenda totam? Minus quam dolorum, nihil eligendi, 
-                    magnam rerum, vel tempore quisquam sequi porro placeat.
+                <p>Los ciudadanos de muchos países pueden ingresar a los Estados Unidos 
+                    por un período de tiempo limitado sin necesidad de una visa, como 
+                    parte del programa de exención de visa. Sin embargo, aquellos 
+                    ciudadanos que no son elegibles para el programa de exención de visa 
+                    deberán obtener una visa de turista. Es importante tener en cuenta 
+                    que la obtención de una visa de turista no garantiza la entrada a los 
+                    Estados Unidos, y los oficiales de inmigración tienen la discreción 
+                    de negar la entrada a cualquier persona que consideren que representa 
+                    un riesgo para la seguridad nacional.
                 </p>
                 <button className='btn px-8 py-2 mt-4 mr-8 text-white'>Guia</button>
                 <button className='btn px-8 py-2 mt-4 text-white bg-green-600'>Whatsapp</button>

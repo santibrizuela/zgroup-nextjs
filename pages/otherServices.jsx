@@ -20,10 +20,13 @@ const otherServices = () => {
             <div className='col-span-4'>
                 <p>Proyecto</p>
                 <h2>Residencia</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Facilis excepturi eius fuga voluptates velit iure 
-                    assumenda totam? Minus quam dolorum, nihil eligendi, 
-                    magnam rerum, vel tempore quisquam sequi porro placeat.
+                <p>Las visas para inversionistas, los Estados Unidos ofrecen varias opciones, 
+                    como la Visa de Inversionista EB-5, que permite a los inversionistas 
+                    extranjeros obtener una Green Card si invierten una cantidad mínima de 
+                    dinero en un negocio en los Estados Unidos y crean empleos para trabajadores 
+                    estadounidenses. Otro ejemplo es la Visa E-2 para inversionistas que permite 
+                    a los ciudadanos de ciertos países invertir en y administrar un negocio en 
+                    los Estados Unidos.
                 </p>
                 <button className='btn px-8 py-2 mt-4 mr-8 text-white'>Guia</button>
                 <button className='btn px-8 py-2 mt-4 text-white bg-green-600'>Whatsapp</button>

@@ -17,7 +17,7 @@ const Projects = () => {
                     title='Green Card y Residencia'
                     backgroundImg={familyOnSofa}
                     projectUrl='/greencardvisas'
-                    detail='Solicitudes Familiares, Visa para Inversionistas.'
+                    detail='Solicitudes Familiares, Visas.'
                 />
 
                 <ProjectItem

@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <div id='footer' className='w-full text-center bg-black/80 text-gray-300 lg:mt-96'>
+    <div id='footer' className='w-full text-center bg-black/80 text-gray-300 lg:mt-[35rem] xl:mt-[30rem]'>
         <div className='max-w-[1240px] mx-auto px-2'>
             <Link href='/'>
                 <h2 className=' text-md py-4'>ZETA GROUP</h2>
@@ -38,50 +38,50 @@ const Footer = () => {
             <div className='grid grid-cols-2 md:grid-cols-3 gap-8'>
 
                 
-              <div class="">
-                <h5 class="uppercase my-1">Navigation</h5>
+              <div className="">
+                <h5 className="uppercase my-1">Navigation</h5>
 
-                <ul class="list-unstyled mb-0">
+                <ul className="list-unstyled mb-0">
                   <li>
-                    <a href="/#home" class="text-white">Home</a>
+                    <a href="/#home" className="text-white">Home</a>
                   </li>
                   <li>
-                    <a href="/#about" class="text-white">About us</a>
+                    <a href="/#about" className="text-white">About us</a>
                   </li>
                   <li>
-                    <a href="/#services" class="text-white">Servicios</a>
+                    <a href="/#services" className="text-white">Servicios</a>
                   </li>
                   <li>
-                    <a href="/#projects" class="text-white">Proyectos</a>
+                    <a href="/#projects" className="text-white">Proyectos</a>
                   </li>
                   <li>
-                    <a href="/#contact" class="text-white">Contacto</a>
+                    <a href="/#contact" className="text-white">Contacto</a>
                   </li>
                 </ul>
               </div>
               
-              <div class="">
-                <h5 class="uppercase my-1">Redes</h5>
+              <div className="">
+                <h5 className="uppercase my-1">Redes</h5>
 
-                <ul class="list-unstyled mb-0">
+                <ul className="list-unstyled mb-0">
                   <li>
-                    <a href="https://www.instagram.com/"  target="_blank" class="text-white">Instagram</a>
+                    <a href="https://www.instagram.com/"  target="_blank" className="text-white">Instagram</a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/"  target="_blank" class="text-white">Facebook</a>
+                    <a href="https://www.facebook.com/"  target="_blank" className="text-white">Facebook</a>
                   </li>
                   <li>
-                    <a href="https://wa.link/"  target="_blank" class="text-white">Whatsapp</a>
+                    <a href="https://wa.link/"  target="_blank" className="text-white">Whatsapp</a>
                   </li>
                   <li>
                     
-                    <a href="https://www.linkedin.com/" class="text-white" target="_blank">Linkedin</a>
+                    <a href="https://www.linkedin.com/" className="text-white" target="_blank">Linkedin</a>
                   </li>
                 </ul>
               </div>
               
-              <div class="col-span-2 md:col-span-1">
-                <h5 class="uppercase my-1">Location</h5>
+              <div className="col-span-2 md:col-span-1">
+                <h5 className="uppercase my-1">Location</h5>
                 <p>Cnel. Thorne 831, Ciudad Madero, Buenos Aires, Argentina.</p>
                 <p>Lunes a viernes: 8hs a 12:30 / 16:30 a 20hs</p>
               </div>

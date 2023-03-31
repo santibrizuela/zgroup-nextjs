@@ -1,9 +1,11 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import aboutImg from '../public/assets/aboutImg.jpg'
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16 text-center'>
+    <div id='about' className='w-full md:h-screen py-20 md:p-2 flex items-center text-center'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#365084]'>Acerca de</p>
@@ -39,7 +41,7 @@ const About = () => {
                 
             </div>
             <div className='w-full h-auto scale-90 shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-100 ease-in duration-300'>
-                <img className='rounded-xl' src="https://images.pexels.com/photos/4427430/pexels-photo-4427430.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Zeta Group" />
+                <Image className='rounded-xl' src={aboutImg} alt="ZetaGroup"></Image>
             </div>
         </div>
     </div>

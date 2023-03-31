@@ -19,11 +19,17 @@ const greencardvisas = () => {
         <div className='max-2-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
             <div className='col-span-4'>
                 <p>Proyecto</p>
-                <h2>Residencia</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Facilis excepturi eius fuga voluptates velit iure 
-                    assumenda totam? Minus quam dolorum, nihil eligendi, 
-                    magnam rerum, vel tempore quisquam sequi porro placeat.
+                <h2>Green Card</h2>
+                <p>La Green Card, un documento de residencia permanente que permite a 
+                    los extranjeros vivir y trabajar en los Estados Unidos de manera 
+                    legal. Para obtener una Green Card, existen diferentes opciones, 
+                    como por ejemplo, a través de una oferta de trabajo de un empleador 
+                    estadounidense, por medio de un familiar que ya sea ciudadano o 
+                    residente permanente de los Estados Unidos, a través de una inversión 
+                    en un negocio en los Estados Unidos, entre otros. La obtención de una 
+                    Green Card puede ser un proceso largo y complicado, pero una vez 
+                    obtenida, el titular tiene muchos de los mismos derechos y privilegios 
+                    que los ciudadanos estadounidenses.
                 </p>
                 <button className='btn px-8 py-2 mt-4 mr-8 text-white'>Guia</button>
                 <button className='btn px-8 py-2 mt-4 text-white bg-green-600'>Whatsapp</button>

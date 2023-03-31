@@ -16,6 +16,7 @@ const Navbar = () => {
 
     useEffect(()=>{
       if (
+        router.asPath === '/' ||
         router.asPath === '/greencardvisas' ||
         router.asPath === '/turismo' ||
         router.asPath === '/citizenship' ||
@@ -24,7 +25,7 @@ const Navbar = () => {
         setNavBg('transparent')
         setLinkColor('#ecf0f3')
       } else{
-        setNavBg('ecf0f3')
+        setNavBg('#ecf0f3')
         setLinkColor('#1f2937')
       }
     }, [router])
@@ -60,7 +61,7 @@ const Navbar = () => {
             
             <div>
               <ul
-              style={{color: `${linkColor}`}} 
+              
                 className={shadow ? 'hidden md:flex font-semibold text-[#1f2937]' : 'hidden md:flex font-semibold text-gray-200'}>
                 <Link href='/'>
                   <li className='ml-10 text-sm uppercase hover:text-[#a21a21]'>Home</li>
