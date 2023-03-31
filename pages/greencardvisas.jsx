@@ -32,7 +32,9 @@ const greencardvisas = () => {
                     que los ciudadanos estadounidenses.
                 </p>
                 <button className='btn px-8 py-2 mt-4 mr-8 text-white'>Guia</button>
-                <button className='btn px-8 py-2 mt-4 text-white bg-green-600'>Whatsapp</button>
+                <Link target='_blank' href='https://www.whatsapp.com/'>
+                    <button className='btn px-8 py-2 mt-4 text-white bg-green-600'>Whatsapp</button>
+                </Link>
             </div>
 
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
@@ -56,7 +58,7 @@ const greencardvisas = () => {
 
             </div>
             <Link href='/#projects'>
-                <p className='underline cursor-pointer'>Back</p>
+                <p className='underline cursor-pointer font-bold'>Back</p>
             </Link>
         </div>
     </div>

@@ -9,25 +9,24 @@ const About = () => {
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#365084]'>Acerca de</p>
-                <h2 className='py-4'>Nuestra Compañía</h2>
+                <h2 className='py-4'><span className='text-[#365084]'>ZETA</span><span className='text-[#a21a21]'>GROUP</span></h2>
                 <p className='py-2 text-gray-600'>Te guiamos en la protección de tus derechos.</p>
                 <p className='py-2 text-gray-600'>
-                    Lorem Ipsum es simplemente el texto de relleno de 
-                    las imprentas y archivos de texto. Lorem Ipsum 
-                    ha sido el texto de relleno estándar de las 
-                    industrias desde el año 1500, cuando un impresor 
-                    desconocido usó una galería de textos y los 
-                    mezcló de tal manera que logró hacer
+                 En Zeta Group tenemos el honor de ofrecer un equipo de abogados para servicios de asesoría
+                 legal en materia migratoria. En un mundo cada vez más globalizado, son cada vez más las
+                  personas que buscan una oportunidad en Estados Unidos. Ya sea para trabajar, estudiar 
+                  o simplemente vivir, el Zeta Group ofrece una amplia gama de servicios para ayudar a 
+                  las personas a alcanzar sus objetivos.
                 </p>
 
                 <p className='py-2 text-gray-600'>
-                    Lorem Ipsum es simplemente el texto de relleno de 
-                    las imprentas y archivos de texto. Lorem Ipsum 
-                    ha sido el texto de relleno estándar de las 
-                    industrias desde el año 1500, cuando un impresor 
-                    desconocido usó una galería de textos y los 
-                    mezcló de tal manera que logró hacer
+                Desde el trámite de visas y green cards, hasta la obtención de la ciudadanía estadounidense, 
+                nuestro equipo de expertos está altamente capacitado para brindar asesoría legal de alta 
+                calidad en todas las áreas de la ley migratoria. Además, Zeta Group también cuenta con un 
+                equipo de asesores financieros para brindar asesoramiento en temas económicos relacionados 
+                con la inmigración.
                 </p>
+
 
                 <Link href='/#contact'>
                     <p 

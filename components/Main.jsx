@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
-import { AiOutlineWhatsApp, AiOutlineInstagram, AiOutlineMail } from 'react-icons/ai'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { AiOutlineWhatsApp, AiOutlineInstagram, AiOutlineMail, AiOutlineLinkedin } from 'react-icons/ai'
+import { BsFillPersonLinesFill, BsPersonVcard } from 'react-icons/bs'
 
 const Main = () => {
   return (
@@ -17,6 +17,11 @@ const Main = () => {
                             <AiOutlineWhatsApp/>
                         </div>
                     </Link>
+                    <Link target='_blank' href='https://www.linkedin.com/'>
+                        <div className='rounded-full icolink shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <AiOutlineLinkedin/>
+                        </div>
+                    </Link>
                     <Link href='/#contact'>
                         <div className='rounded-full icolink shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <AiOutlineMail/>
@@ -24,7 +29,7 @@ const Main = () => {
                     </Link>
                     <Link href='/#projects'>
                         <div className='rounded-full icolink shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <BsFillPersonLinesFill/>
+                            <BsPersonVcard/>
                         </div>
                     </Link>
                     <Link target='_blank' href='https://www.instagram.com/'>

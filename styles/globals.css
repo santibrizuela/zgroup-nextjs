@@ -46,7 +46,7 @@ html{
     }
 
     .icolink:hover{
-        @apply text-[#a21a21]
+        @apply text-[#a21a21] ease-in duration-300
     }
 
     .mask{

@@ -1,9 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, {useState, useEffect} from 'react'
-import {AiOutlineClose, AiOutlineMenu, AiFillInstagram, AiOutlineMail} from 'react-icons/ai'
-import {FaLinkedinIn} from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {AiOutlineClose, AiOutlineMenu, AiFillInstagram, AiOutlineMail, AiOutlineLinkedin, AiOutlineInstagram} from 'react-icons/ai'
+import {BsFillPersonLinesFill, BsPersonVcard} from 'react-icons/bs'
 import { useRouter } from 'next/router'
 import zetaGroupLogo from '../public/assets/zetaGroupLogo.png'
 
@@ -134,12 +133,12 @@ const Navbar = () => {
                 <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                   <Link target='_blank' href='https://www.linkedin.com/'>
                     <div onClick={handleNav} className='rounded-full shadow-lg shadow-grey-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
-                      <FaLinkedinIn/>
+                      <AiOutlineLinkedin/>
                     </div>
                   </Link>
                   <Link target='_blank' href='https://www.instagram.com/'>
                     <div onClick={handleNav} className='rounded-full shadow-lg shadow-grey-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
-                      <AiFillInstagram/>
+                      <AiOutlineInstagram/>
                     </div>
                   </Link>
                   <Link href='/#contact'>
@@ -150,7 +149,7 @@ const Navbar = () => {
                   
                   <Link href='/#projects'>
                     <div onClick={handleNav} className='rounded-full shadow-lg shadow-grey-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
-                      <BsFillPersonLinesFill/>
+                      <BsPersonVcard/>
                     </div>
                   </Link>
                   
