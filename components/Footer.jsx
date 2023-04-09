@@ -5,6 +5,7 @@ import { BsPersonVcard } from 'react-icons/bs'
 
 const Footer = () => {
   return (
+    
     <div id='footer' className='w-full text-center bg-black/80 text-gray-300 lg:mt-[35rem] xl:mt-[30rem]'>
         <div className='max-w-[1240px] mx-auto px-2'>
             <Link href='/'>

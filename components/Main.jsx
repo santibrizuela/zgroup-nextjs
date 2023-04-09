@@ -1,7 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
+import contactImg from '../public/assets/zetaGroupLogo.png'
 import { AiOutlineWhatsApp, AiOutlineInstagram, AiOutlineMail, AiOutlineLinkedin } from 'react-icons/ai'
 import { BsFillPersonLinesFill, BsPersonVcard } from 'react-icons/bs'
+import Image from 'next/image'
 
 const Main = () => {
   return (
@@ -9,7 +11,9 @@ const Main = () => {
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
                 <p className='uppercase text-sm tracking-widest text-gray-100 font-bold'>ASISTENCIA AL INMIGRANTE</p>
-                <h1 className='py-4 text-gray-300'><span className='text-[#365084]'>ZETA</span><span className='text-[#a21a21]'>GROUP</span></h1>
+                <div>
+                    <Image className='rounded-xl scale-90 hover:scale-100 ease-in duration-300' src={contactImg} alt="Contact" />
+                </div>
                 <h2 className='py-2 text-gray-300'>Tu camino comienza aquí.</h2>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4 text-gray-300'>
                     <Link target='_blank' href='https://www.whatsapp.com/'>

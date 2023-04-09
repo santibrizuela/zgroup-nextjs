@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*zetagroup-280323": ["./*"]
     }
   }
 }
