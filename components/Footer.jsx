@@ -88,8 +88,8 @@ const Footer = () => {
               
               <div className="col-span-2 md:col-span-1">
                 <h5 className="uppercase my-1">Location</h5>
-                <p>Cnel. Thorne 831, Ciudad Madero, Buenos Aires, Argentina.</p>
-                <p>Lunes a viernes: 8hs a 12:30 / 16:30 a 20hs</p>
+                <p>7875 NW 12th ST, Suite 113, Miami, FL 33126.</p>
+                <p>info@zeta-immigration.com</p>
               </div>
              
                 

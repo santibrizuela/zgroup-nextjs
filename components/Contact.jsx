@@ -58,8 +58,9 @@ const Contact = () => {
                             <h2 className='py-2'><span className='text-[#365084]'>ZETA</span><span className='text-[#a21a21]'>GROUP</span></h2>
                             <p className='pb-1'>Asistencia al Inmigrante</p>
                             
-                            <p>Cnel. Thorne 831, Ciudad Madero, Buenos Aires, Argentina.</p>
-                            <p>Lunes a viernes: 8hs a 12:30 / 16:30 a 20hs</p>
+                            <p>7875 NW 12th ST, Suite 113, Miami, FL 33126.</p>
+                            <p>info@zeta-immigration.com</p>
+                            <p>Tel: 786-863-2741</p>
                         </div>
                         <div className='text-center'>
                             <p className='uppercase pt-8'> Conecta con Nosotros</p>
