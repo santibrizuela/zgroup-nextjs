@@ -1,7 +1,7 @@
 import React from 'react'
 import familyOnSofa from '../public/assets/familyOnSofa.jpg'
 import nyc from '../public/assets/nyc.jpg'
-import citizenship from '../public/assets/citizenship.jpg'
+import citizenship from '../public/assets/accounting.jpg'
 import otherServices from '../public/assets/otherServices.jpg'
 import ProjectItem from './ProjectItem'
 
@@ -14,9 +14,9 @@ const Projects = () => {
             <div className='grid md:grid-cols-2 gap-8'>
 
                 <ProjectItem
-                    title='Green Card y Residencia'
+                    title='Documentos de Inmigración'
                     backgroundImg={familyOnSofa}
-                    projectUrl='/greencardvisas'
+                    projectUrl='/immigration'
                     detail='Solicitudes Familiares, Visas.'
                 />
 
@@ -28,17 +28,17 @@ const Projects = () => {
                 />
 
                 <ProjectItem
-                    title='Ciudadanía'
+                    title='Servicios Contables'
                     backgroundImg={citizenship}
-                    projectUrl='/citizenship'
-                    detail='Ciudadanías, Pasaportes para hijos y nietos de ciudadanos.'
+                    projectUrl='/accounting'
+                    detail='Contabilidad, Taxes, Payroll.'
                 />
 
                 <ProjectItem
-                    title='Otros Servicios'
+                    title='Seguros'
                     backgroundImg={otherServices}
-                    projectUrl='/otherServices'
-                    detail='Derechos Humanos, Visas para Inversionistas y Otros.'
+                    projectUrl='/seguros'
+                    detail='De Vida, Médicos, Comerciales, Automóviles.'
                 />
 
             </div>
