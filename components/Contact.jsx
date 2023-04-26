@@ -16,7 +16,7 @@ const Contact = () => {
                 {/*left*/}
                 <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 scale-90 hover:scale-100 ease-in duration-300'>
                     <div className='p-4'>
-                        <form action="https://formsubmit.co/zetagroupimmigration@gmail.com" method="POST" id='contactForm'>
+                        <form action="https://formsubmit.co/casafagnani@gmail.com" method="POST" id='contactForm'>
                             <div className='grid gap-4 w-full py-2'>
 
                                 <div className='flex flex-col'>
