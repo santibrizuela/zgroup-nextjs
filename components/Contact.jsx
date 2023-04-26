@@ -16,7 +16,7 @@ const Contact = () => {
                 {/*left*/}
                 <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 scale-90 hover:scale-100 ease-in duration-300'>
                     <div className='p-4'>
-                        <form action="https://formsubmit.co/casafagnani@gmail.com" method="POST" id='contactForm'>
+                        <form action="https://formsubmit.co/zetagroupimmigration@gmail.com" method="POST">
                             <div className='grid gap-4 w-full py-2'>
 
                                 <div className='flex flex-col'>
@@ -31,21 +31,20 @@ const Contact = () => {
                                     <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" name="email" required placeholder='mail@mail.com'/>
                                 </div>
                                 <div className='flex flex-col'>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="issue" required placeholder='Asunto'/>
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="issue" placeholder='Su asunto...'/>
                                 </div>
                                 <div className='flex flex-col'>
                                     <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10' name="message" required placeholder='Escribir aquí...'/>
                                 </div>
 
-                                <input type="hidden" name="_subject" value="CONTACT FORM"></input>
-
                             </div>
-
-
+                            
+                            
                             <button type="submit" className='w-full p-4 text-gray-100 mt-4 btn'>Enviar Mensaje</button>
                         </form>
                     </div>
                 </div>
+                
                 
 
                 {/*right*/}
