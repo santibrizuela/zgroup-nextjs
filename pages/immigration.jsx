@@ -66,35 +66,35 @@ const greencardvisas = () => {
             </div>
             <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 scale-90 hover:scale-100 ease-in duration-300'>
                 <div className='p-4'>
-                    <form id='contactForm'>
-                        <h3>Contacto Inmigración</h3>
-                        <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
+                <form action="https://formsubmit.co/zetagroupimmigration@gmail.com" method="POST">
+                    <div className='grid gap-4 w-full py-2'>
+                        <h3>Contacto inmigración</h3>
 
-                            <div className='flex flex-col'>
-                                <label className='uppercase text-sm py-2'>Nombre</label>
-                                <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
-                            </div>
+                        <div className='flex flex-col'>
+                            <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="name" required placeholder='Nombre Completo'/>
+                        </div>
 
-                            <div className='flex flex-col'>
-                                <label className='uppercase text-sm py-2'>Telefono</label>
-                                <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
-                            </div>
+                        <div className='flex flex-col'>
+                            <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="number" placeholder='1234567890'/>
+                        </div>
 
+                        <div className='flex flex-col'>
+                            <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" name="email" required placeholder='mail@mail.com'/>
                         </div>
-                        <div className='flex flex-col py-2'>
-                            <label className='uppercase text-sm py-2'>Email</label>
-                            <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" />
+                        <div className='flex flex-col'>
+                            <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="issue" required placeholder='Asunto'/>
                         </div>
-                        <div className='flex flex-col py-2'>
-                            <label className='uppercase text-sm py-2'>Asunto</label>
-                            <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                        <div className='flex flex-col'>
+                            <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10' name="message" required placeholder='Escribir aquí...'/>
                         </div>
-                        <div className='flex flex-col py-2'>
-                            <label className='uppercase text-sm py-2'>Mensaje</label>
-                            <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10'></textarea>
-                        </div>
-                        <button className='w-full p-4 text-gray-100 mt-4 btn'>Enviar Mensaje</button>
-                    </form>
+
+                        <input type="hidden" name="_subject" value="IMMIGRATION FORM"></input>
+
+                    </div>
+
+
+                    <button type="submit" className='w-full p-4 text-gray-100 mt-4 btn'>Enviar Mensaje</button>
+                </form>
                 </div>
             </div>
             
